@@ -18,3 +18,11 @@ console.log(student.goal);
 
 // Pass parameters in
 
+function greet(student) {
+    console.log("Hello " + student.name + "! Welcome to the " + student.school + " project.");
+}           
+
+greet(student.name, student.school);
+
+
+
