@@ -1,4 +1,4 @@
-// OBJECT WITH MULTIPLE PROPERTIES
+// Create at least one function
 
 const student = {
 
@@ -11,6 +11,10 @@ const student = {
     goal: "UI Designer"
 
 };
+
+console.log(student.name, student.major, student.school, student.goal);
+
+
 
 // FUNCTION 1: Pass parameters IN
 
